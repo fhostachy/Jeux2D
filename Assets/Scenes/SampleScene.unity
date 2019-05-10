@@ -3884,7 +3884,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.06059265, y: -85}
+  m_AnchoredPosition: {x: 0.06059265, y: -84.999985}
   m_SizeDelta: {x: -69.159, y: -217.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &714201874
@@ -4770,7 +4770,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.19751567}
   m_AnchorMax: {x: 0.38536975, y: 0.42348436}
-  m_AnchoredPosition: {x: 0.23400116, y: 0.5586014}
+  m_AnchoredPosition: {x: 0.23400116, y: 0.55859375}
   m_SizeDelta: {x: 0.47000122, y: -1.4899998}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &887827876
@@ -5366,7 +5366,7 @@ GameObject:
   - component: {fileID: 905746917}
   m_Layer: 5
   m_Name: ScoreTxt
-  m_TagString: CoinAmount
+  m_TagString: scoreFinal
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5387,7 +5387,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -28.500008, y: 0}
+  m_AnchoredPosition: {x: -28.500011, y: 0}
   m_SizeDelta: {x: -88.64, y: -5.81}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &905746917
@@ -6278,13 +6278,13 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: f7e8a7cb4bdea8a479ceef621104e27c, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.106
+  m_Volume: 0
   m_Pitch: 1
   Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 129
+  Priority: 76
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -6322,7 +6322,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.748
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -8428,7 +8428,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5934454, y: 0.22500001}
   m_AnchorMax: {x: 1, y: 0.42348436}
-  m_AnchoredPosition: {x: -0.14599991, y: -4.413002}
+  m_AnchoredPosition: {x: -0.14599991, y: -4.4129944}
   m_SizeDelta: {x: 0.24000168, y: 8.566002}
   m_Pivot: {x: 0.50000006, y: 0.49999994}
 --- !u!114 &1354705412
@@ -13558,7 +13558,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1986952681
 RectTransform:
   m_ObjectHideFlags: 0
@@ -14307,7 +14307,7 @@ GameObject:
   - component: {fileID: 2135948670}
   m_Layer: 5
   m_Name: CoinCollect
-  m_TagString: Untagged
+  m_TagString: Score
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

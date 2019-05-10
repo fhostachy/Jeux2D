@@ -8,6 +8,8 @@ TagManager:
   - CoinAmount
   - Obstacle
   - Monster
+  - Score
+  - scoreFinal
   layers:
   - Default
   - TransparentFX

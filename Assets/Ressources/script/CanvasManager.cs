@@ -25,6 +25,7 @@ public class CanvasManager : MonoBehaviour {
     {
         Time.timeScale = 0;
         gameOverPanel.SetActive(true);
+        GameObject.FindGameObjectWithTag("Score").GetComponent<CoinAmount>().Score();
         pauseBtn.SetActive(false);
     }
 
