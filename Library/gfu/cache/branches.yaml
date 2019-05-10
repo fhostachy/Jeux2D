@@ -13,13 +13,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2019-05-10T08:02:58.192+02:00
-  initializedAtString: 2019-05-10T08:02:58.184+02:00
+  lastUpdatedAtString: 2019-05-10T09:07:33.023+02:00
+  initializedAtString: 2019-05-10T09:07:33.012+02:00
   localBranches:
   - name: master
-    tracking: 
+    tracking: origin/master
+  - name: preview
+    tracking: origin/preview
   remoteBranches:
   - name: origin/master
+    tracking: '[None]'
+  - name: origin/preview
     tracking: '[None]'
   remotes:
   - name: origin
@@ -32,21 +36,33 @@ MonoBehaviour:
   localConfigBranches:
     keys:
     - master
+    - preview
     values:
     - name: master
       remote:
-        name: 
-        url: 
-      trackingBranch: 
+        name: origin
+        url: https://github.com/fhostachy/Jeux2D.git
+      trackingBranch: master
+    - name: preview
+      remote:
+        name: origin
+        url: https://github.com/fhostachy/Jeux2D.git
+      trackingBranch: preview
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
       - master
+      - preview
     subKeyValues:
     - Values:
       - name: master
+        remote:
+          name: origin
+          url: https://github.com/fhostachy/Jeux2D.git
+        trackingBranch: 
+      - name: preview
         remote:
           name: origin
           url: https://github.com/fhostachy/Jeux2D.git

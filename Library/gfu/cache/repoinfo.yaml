@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2019-05-10T07:55:54.947+02:00
-  initializedAtString: 2019-05-10T07:55:54.947+02:00
+  lastUpdatedAtString: 2019-05-10T09:32:52.257+02:00
+  initializedAtString: 2019-05-10T09:32:52.257+02:00
   currentGitRemote:
     name: origin
     url: https://github.com/fhostachy/Jeux2D.git
@@ -24,14 +24,14 @@ MonoBehaviour:
     function: 0
     token: 
   currentGitBranch:
-    name: master
-    tracking: 
+    name: preview
+    tracking: origin/preview
   currentConfigBranch:
-    name: master
+    name: preview
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://github.com/fhostachy/Jeux2D.git
+    trackingBranch: preview
   currentConfigRemote:
     name: origin
     url: https://github.com/fhostachy/Jeux2D.git
