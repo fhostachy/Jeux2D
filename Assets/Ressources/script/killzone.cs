@@ -16,6 +16,7 @@ public class killzone : MonoBehaviour
     {
         
     }
+    // sert uniquement a faire apparaître le canvas GameOver donc le menu 
     void OnTriggerEnter2D(Collider2D col)
     {
     if (col.gameObject.CompareTag("Player"))
